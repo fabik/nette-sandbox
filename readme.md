@@ -26,6 +26,13 @@ then visit `http://localhost:8888` in your browser.
 It is CRITICAL that whole `app`, `log` and `temp` directories are NOT accessible
 directly via a web browser! See [security warning](http://nette.org/security-warning).
 
+### Run via [Docker](https://www.docker.com/)
+
+Build  
+
+        $ ./docker/build.sh  
+        $ ./docker/run.sh
+
 
 License
 -------
