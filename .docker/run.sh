@@ -1,7 +1,7 @@
 #!/bin/bash
 
 docker run -i -t --rm -v "$PWD:/data" -w /data \
-  -p 80:80 \
+  -p 3000:80 \
   nette/sandbox:latest \
   sh -c 'service mysql start;\
     mysqladmin -u root -proot create test;\
