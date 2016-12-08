@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER adam.stipak@gmail.com
+FROM ubuntu:16.10
+MAINTAINER jansfabik@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
