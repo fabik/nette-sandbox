@@ -14,10 +14,10 @@ RUN apt-get install mc curl vim wget htop openssh-client git -y
 RUN apt-get install mysql-client mysql-server -y
 
 # php
-RUN apt-get install php5 php5-cli php5-curl php5-intl php5-mysql php5-sqlite php5-ldap php5-mcrypt php5-gd php5-xdebug -y
+RUN apt-get install php7.0 php7.0-curl php7.0-gd php7.0-mysql php7.0-xdebug -y
 
-# apache2
-RUN apt-get install apache2 libapache2-mod-php5
+# apache
+RUN apt-get install apache2 libapache2-mod-php7.0
 RUN a2enmod rewrite
 
 # composer
